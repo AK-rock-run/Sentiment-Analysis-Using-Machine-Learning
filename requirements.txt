@@ -1,0 +1,5 @@
+streamlit
+datasets
+re
+joblib
+scikit-learn
