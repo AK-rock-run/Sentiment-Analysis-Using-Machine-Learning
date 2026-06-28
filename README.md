@@ -1,4 +1,4 @@
-# Twitter Sentiment Analysis using Machine Learning
+# Social Media Analysis using Machine Learning
 
 ## Overview
 
@@ -105,9 +105,6 @@ streamlit run app.py
 Streamlit App:
 
 **Add your deployed Streamlit URL here**
-
-Example:
-
 ```text
 https://sentiment-analysis-using-machine-learning-7pj4ek2fjtoh27htjdgh.streamlit.app/
 ```
