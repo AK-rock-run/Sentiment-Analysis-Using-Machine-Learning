@@ -25,6 +25,7 @@ The application is trained using the **TweetEval Sentiment** dataset provided by
 * Logistic Regression classifier
 * Interactive Streamlit web application
 * Displays prediction confidence
+* Batch CSV upload with downloadable sentiment predictions
 
 ---
 
@@ -97,6 +98,14 @@ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
+
+## Batch CSV Input
+
+Use the **Batch CSV** tab to score multiple Twitter/X text rows at once. The app
+detects common text columns such as `tweet`, `tweet_text`, `text`, `content`,
+`full_text`, `message`, or `body`, appends `predicted_sentiment` and
+`prediction_confidence`, then downloads the labeled CSV. TweetClaw export CSV
+files usually work through the `text` or `content` columns.
 
 ---
 
